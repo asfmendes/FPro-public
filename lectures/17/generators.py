@@ -13,7 +13,7 @@ gen_exp = (x ** 2 for x in range(10) if x % 2 == 0)
 print()
 print(list_comp)
 print(gen_exp)
-#print(next(iter(gen_exp)))
+print(next(iter(gen_exp)))
 
 # list comprehensions
 comp_list = [x * 2 for x in range(10)] 
